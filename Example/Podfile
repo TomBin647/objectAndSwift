@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'objectAndSwift_Example' do
+  pod 'objectAndSwift', :path => '../'
+
+  target 'objectAndSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
