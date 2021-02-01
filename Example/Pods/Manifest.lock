@@ -1,0 +1,16 @@
+PODS:
+  - objectAndSwift (0.0.1)
+
+DEPENDENCIES:
+  - objectAndSwift (from `../`)
+
+EXTERNAL SOURCES:
+  objectAndSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  objectAndSwift: a9df3afd7888830af6d722e7d416fb6b3a4b8e44
+
+PODFILE CHECKSUM: 4cae49b6bd65e7a823364b3dad4298f61dc2bb0d
+
+COCOAPODS: 1.10.1
