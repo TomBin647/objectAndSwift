@@ -1,15 +1,42 @@
 PODS:
-  - objectAndSwift (0.0.1)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - objectAndSwift (0.0.1):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - objectAndSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   objectAndSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  objectAndSwift: a9df3afd7888830af6d722e7d416fb6b3a4b8e44
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  objectAndSwift: fa4f795dbb5e59a17d8807a766bce98974506b60
 
 PODFILE CHECKSUM: 4cae49b6bd65e7a823364b3dad4298f61dc2bb0d
 

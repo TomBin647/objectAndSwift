@@ -7,8 +7,11 @@
 //
 
 #import "GBViewController.h"
+#import "objectAndSwift-Swift.h"
 
 @interface GBViewController ()
+
+@property (nonatomic,strong) WELMaskView * image;
 
 @end
 
